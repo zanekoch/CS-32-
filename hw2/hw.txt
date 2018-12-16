@@ -1,0 +1,29 @@
+Question 2:
+first twelve coordinates pop by algorithm:
+6,5
+6,6
+6,4
+7,4
+8,4
+8,3
+8,2
+8,1
+7,1
+6,3
+5,5
+4,5
+
+Question 4:
+6,5
+5,5
+6,4
+6,6
+4,5
+6,3
+7,4
+3,5
+4,4
+8,4
+2,5
+4,3
+-The two algorithms differ from eachother in that the stack algorithms is always popping the item that was last pushed in while the queue is always popping the item that was first pushed in. This means that they both always pop off the same starting coordinate (stacks and queues behave the same when they each only contain one item). The difference occurs when there are multiple items inside. In the stack when multiple coordinates are put in, when it comes time to pop off a new coordinate the most recently put on it popped off, this is the opposite of the queue where the oldest item gets popped off. This means that after the first instance where there are multiple coordinates they diverge and start doing different things.
